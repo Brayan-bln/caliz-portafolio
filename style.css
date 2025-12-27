@@ -1,0 +1,84 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    font-size: 1.6rem;
+    background-color: #ecf0f1;
+}
+
+#header_principal{
+    background-color: #b37400;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+
+#titulo_principal{
+    font-size: 4rem;
+}
+
+#menu{
+    margin-top: 1%;
+}
+
+#lista_menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#lista_menu li{
+    margin: 0 1rem;
+}
+
+#lista_menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+
+#lista_menu a:hover{
+    color: orange;
+}
+
+section{
+    width: 80%;
+    margin: 2% auto;
+    background-color: white;
+    padding: 2%;
+}
+
+#sobre_mi{
+    display: flex;
+}
+
+#intro{
+    margin: 2rem;
+    
+}
+
+#caja2{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+section h2{
+    font-size: 3rem;
+    margin-bottom: 1%;
+}
+
+section img{
+    width: 250px;
+    display: block;
+    margin-top: 1%;
+}
+
+#footer{
+    background-color: #b37400;
+    color: white;
+    text-align: center;
+    padding: 1%;
+}
